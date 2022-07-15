@@ -1,0 +1,120 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.sideBar {
+  text-align: left;
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  position: relative;
+  -webkit-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+}
+
+.BusinessName{
+  height: 60px;
+  border-top: 4px solid #0079a7;
+}
+
+.sideBar > li {
+  background: #FFFFFF;
+  display: block;
+  font-size: 14px;
+  padding: 15px 5px 15px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.sideBar > li:hover {
+  background: #E6E6E6;
+  color: #1B75C4;
+}
+
+.sideBar > li{
+  border-left: 4px solid #0079a7;
+}
+
+
+.arrow {
+  float: right;
+  padding: 0px 10px
+}
+
+.sideBar > li > ul {
+  border: 1px solid #CCCCCC;
+  padding: 0;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 193px;
+  width: 380px;
+  padding: 10px 0px 20px 20px;
+  opacity: 0;
+  visibility: hidden;
+  background: #ffffff;
+    -webkit-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+}
+
+.sideBar > li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity .5s ease-in-out;
+       -moz-transition: opacity .5s ease-in-out;
+        -ms-transition: opacity .5s ease-in-out;
+         -o-transition: opacity .5s ease-in-out;
+            transition: opacity .5s ease-in-out;
+   z-index: 9999 !important;         
+}
+
+.sideBar > li > ul > li { 
+  position: relative;
+  width: 145px;
+  z-index: 9999 !important;
+  padding: 0;
+  display: inline-block;
+  margin-right: 20px;
+  color: #555;
+  cursor:default;
+  font-weight: 300;
+  vertical-align: top;
+}
+
+.sideBar > li > ul > li > ul { 
+  list-style: none;
+  padding: 0px !important;
+  vertical-align: top;
+}
+
+.sideBar > li > ul > li > ul > li { 
+  margin-bottom: 7px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 800;
+}
+
+.sideBar > li > ul > li > ul > li:hover{ 
+  margin-bottom: 7px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 900;
+  color: #3293b8;
+}
+
+h4 {
+  margin: 7px 0px 12px;
+    font-weight: 900;
+}
+
+hr {
+  width: 340px;
+  margin: 0px;
+  border: 0px;
+  height: 1px;
+  background: #CCCCCC;
+  margin-bottom: 10px;
+}

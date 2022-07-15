@@ -1,0 +1,84 @@
+.postCreationArea .input-group {
+  height: 34px;
+  margin-top: 20px;
+}
+.postCreationArea .input-group p{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: black;
+  font-weight: 700;
+  color: #333;
+}
+
+.postCreationArea{
+  margin-top: 15px;
+}
+
+.postCreationPanel{
+    -webkit-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+}
+
+.catSelectionArea .btn{
+  width: 200px !important;
+  margin: 0 auto !important;
+}
+
+.catSelectionArea {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.catSelectionHeader{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.postDetailsSection{
+}
+
+.postDetailsSection .form-group{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.postDetailsSection .form-group label{
+  padding-bottom: 5px;
+}
+
+.locDrop{
+  width: 100% !important;
+}
+
+.locDrop button{
+  width: 100% !important;
+}
+
+.contactInfoSection .form-group{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contactInfoSection .input-group{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.submitButton {
+  margin: 0 auto !important;
+  width: 100% !important;
+  margin-top: 25px;
+}

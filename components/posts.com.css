@@ -1,0 +1,75 @@
+
+.flex-item {
+  background: #f2f2f2;
+  margin: 0 auto !important;
+  border: 1px solid #00678e;
+  padding: 5px;
+  width: 320px;
+  height: 500px;
+  margin-top: 10px;
+  margin-bottom: 20px !important;
+  color: white;
+    -webkit-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.15);
+}
+
+.flex-item .title {
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  text-align: center;
+}
+
+
+
+.flex-item p{
+  padding-top: 0 !important;
+  font-size: 16px;
+  line-height: 18px;
+  color: black;
+  padding: 2%;
+  font-weight: 500;
+}
+
+.flex-item .price{
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.flex-item .location{
+  font-weight: 700;
+}
+
+.flex-item .seller{
+  border-top: 1px solid #ccc;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5px;
+  line-height: 24px;
+}
+
+.outerBox {
+  width: 95%; /* just set a width you like*/
+  margin: 0 2.5%;
+}
+/* make the ratio 4*3 (by 100% of width /75% of width). use any ratio you'd like to */
+.wrapper { 
+  width: 100%;/* % of width */
+  padding-top: 75%; /* the % of padding will calculate by width */
+  position:relative; /* as it childern's(img here) position's anchor */ 
+}
+.wrapper img {
+  /* make the image inside the padding space */
+  position:absolute;
+  top:0;
+  bottom:0; 
+  left:0; 
+  right:0;
+  /* make sure the image will not over the division */
+  max-height:100%;
+  max-width:100%;
+  /* center the image */
+  display:block; 
+  margin: auto;
+}

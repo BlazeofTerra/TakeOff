@@ -1,0 +1,92 @@
+.postPageArea{
+	margin-top: 15px;
+	border: 1px solid #00678e;
+}
+
+.postPageArea h1{
+	width:100%;
+	font-size: 42px;
+	line-height: 48px;
+	text-align: center;
+	font-weight: 700;
+	padding: 5px;
+}
+
+.postPageArea .outerBox {
+  width: 95%; /* just set a width you like*/
+  margin: 0 2.5%;
+}
+/* make the ratio 4*3 (by 100% of width /75% of width). use any ratio you'd like to */
+.postPageArea .wrapper { 
+  width: 100%;/* % of width */
+  padding-top: 75%; /* the % of padding will calculate by width */
+  position:relative; /* as it childern's(img here) position's anchor */ 
+  border: 1px solid #00678e;
+}
+.postPageArea .wrapper img {
+  /* make the image inside the padding space */
+  position:absolute;
+  top:0;
+  bottom:0; 
+  left:0; 
+  right:0;
+  /* make sure the image will not over the division */
+  max-height:100%;
+  max-width:100%;
+  /* center the image */
+  display:block; 
+  margin: auto;
+}
+
+.detailsArea{
+	border-top: 0;
+	margin: 0 auto; 
+	margin-top: 20px !important;
+	border: 1px solid #00678e;
+	height: 200px;
+
+	 
+}
+
+.detailsArea h2{
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.basicInform{
+	 border-right: 0 !important;
+	 padding-left: 6px !important;
+}
+.basicInform .price{
+  margin-top: 5px;
+  font-weight: 700;
+  margin-bottom: 10px;
+
+}
+
+.basicInform .location{
+  font-weight: 700;
+}
+
+.basicInform .text{
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.contactInform .price{
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  padding: 0 !important;
+  padding-top: 5px !important;
+  padding-left: 6px !important;
+  overflow: hidden;
+}
+
+.moreInform{
+	padding: 5px;
+	border-top: none;
+	margin-bottom: 50px;
+}

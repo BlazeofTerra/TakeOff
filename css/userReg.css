@@ -1,0 +1,13 @@
+.errorArea{
+	width: 100% !important;
+
+}
+
+.errorText{
+	display: none;
+	width:100% !important;
+	padding: 5px;
+	font-size: 18px;
+	line-height: 24px;
+	color: red;
+}
